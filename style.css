@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Ubuntu&display=swap');
+body {
+    background-color: rgb(5, 4, 4);
+    /* background-image: url(try2.jpg);
+    background-repeat: no-repeat; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 78px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+.brand img {
+    border-radius: 34px;
+    filter: brightness(1.5);
+    width: 36px;
+    align-items: baseline;
+    position: absolute;
+    top: -11px;
+    left: 21px;
+    margin: 15px 3px
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: rgb(117 158 208);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 23px auto;
+    width: 72%;
+    border-radius: 8px;
+    padding: 30px;
+    background-image: url(fly.jpg);
+    background-repeat: no-repeat;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    color: silver;
+    font-weight: bolder;
+    font-size: 11px;
+    padding: 68px;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    filter: invert(100);
+    margin: 7px 0px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgress {
+    cursor: pointer;
+    width: 80vw;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    width: 60%;
+    margin-top: 24px;
+    color: #e1f5fe;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img {
+    width: 40px;
+    margin: 0px 23px;
+}
+
+.fa-solid,
+.fas {
+    padding: 0px 11px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.songItemcontainer {
+    margin-top: 40px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 143px;
+    bottom: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+.songinfo img {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
